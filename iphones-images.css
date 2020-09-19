@@ -1,0 +1,22 @@
+body{
+    background-color: #fafafa;
+}
+/* iphone image at the left side */
+.page .iphone-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page .iphone-image .iphone1{
+    position: absolute;
+    z-index: 1;
+    float: right;
+    transform: translateX(2vw);
+    height: 70vh;
+}
+.page .iphone-image .iphone2{
+    z-index: 0;
+    float: left;
+    transform: translateX(-2vw);
+    height: 65vh;
+}
